@@ -1,0 +1,7 @@
+alert ("Olá, Lets Play a Game!");
+var primeiro = prompt("Qual sua área: front ou back?");
+if (primeiro == "front"){ prompt("Vai aprender React ou Vue?")}
+if (primeiro == "back"){ prompt("vai cair no C ou no Java?")};
+var segundo = prompt("Vai se especializar na área ou vira FullStack?");
+if (segundo == "especializar"){ alert("Legal, virar especialista!")}
+if (segundo == "FullStack"){ alert("Demais, muita coisa pra se aprender!")};
