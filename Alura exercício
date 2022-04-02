@@ -5,3 +5,10 @@ if (primeiro == "back"){ prompt("vai cair no C ou no Java?")};
 var segundo = prompt("Vai se especializar na área ou vira FullStack?");
 if (segundo == "especializar"){ alert("Legal, virar especialista!")}
 if (segundo == "FullStack"){ alert("Demais, muita coisa pra se aprender!")};
+var tech = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Responda com ok");
+while (tech === "ok") {
+    var escolha = prompt("Qual tecnologia seria?");
+    alert(`${escolha} é uma tecnologia muito legal, você vai gostar!`);
+    tech = prompt("Tema mais alguma tecnologia que você gostaria de aprender? Responda com ok");
+}
+alert("Muito bem, continue evoluindo!");
